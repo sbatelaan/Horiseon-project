@@ -24,23 +24,23 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-ul,
-li {
+
+header nav {
     padding-top: 15px;
     margin-right: 20px;
-    
+    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-ul {
-    float: right;
+header nav ul {
+    
     list-style-type: none;
 }
 
-li {
-    float: left;
-    display: block;
+header nav ul li {
+   
+    display: inline-block;
     margin-left: 25px;
 }
 
@@ -62,7 +62,7 @@ figure img {
 }
 
 /*Consolidated this section down*/
-.main {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -98,7 +98,7 @@ figure img {
 
 
 /* I consolidated the benefits classes down*/
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
